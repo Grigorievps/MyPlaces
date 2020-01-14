@@ -4,6 +4,10 @@
    <FileRef
       location = "group:/Users/pavelgrigorev/Documents/iOS Development/MyPlaces/MyPlaces/SceneDelegate.swift">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
    <FileRef
       location = "self:">
    </FileRef>

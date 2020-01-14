@@ -27,10 +27,19 @@ class MainViewController: UITableViewController {
 
         cell.textLabel?.text = placesNames[indexPath.row]
         cell.imageView?.image = UIImage(named: placesNames[indexPath.row])
+        cell.imageView?.layer.cornerRadius = cell.frame.size.height * 0.2
+        cell.imageView?.clipsToBounds = true
         return cell
     }
+    
+    // MARK: - Table view delegate
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 85
+    }
+    
     /*
-
+     
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
