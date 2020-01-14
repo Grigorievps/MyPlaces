@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		31B893FA23CCB33D00E22B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B893F923CCB33D00E22B30 /* AppDelegate.swift */; };
-		31B893FC23CCB33D00E22B30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B893FB23CCB33D00E22B30 /* SceneDelegate.swift */; };
-		31B893FE23CCB33D00E22B30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B893FD23CCB33D00E22B30 /* ViewController.swift */; };
 		31B8940123CCB33D00E22B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B893FF23CCB33D00E22B30 /* Main.storyboard */; };
 		31B8940323CCB33E00E22B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B8940223CCB33E00E22B30 /* Assets.xcassets */; };
 		31B8940623CCB33E00E22B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B8940423CCB33E00E22B30 /* LaunchScreen.storyboard */; };
+		31B8940E23CCC00600E22B30 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8940D23CCC00600E22B30 /* MainViewController.swift */; };
+		31B8945223CDEE8200E22B30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8945123CDEE8200E22B30 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31B893F623CCB33D00E22B30 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B893F923CCB33D00E22B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31B893FB23CCB33D00E22B30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31B893FD23CCB33D00E22B30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31B8940023CCB33D00E22B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31B8940223CCB33E00E22B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31B8940523CCB33E00E22B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31B8940723CCB33E00E22B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B8940D23CCC00600E22B30 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		31B8945123CDEE8200E22B30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "/Users/pavelgrigorev/Documents/iOS Development/MyPlaces/MyPlaces/SceneDelegate.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				31B893F923CCB33D00E22B30 /* AppDelegate.swift */,
-				31B893FB23CCB33D00E22B30 /* SceneDelegate.swift */,
-				31B893FD23CCB33D00E22B30 /* ViewController.swift */,
+				31B8940D23CCC00600E22B30 /* MainViewController.swift */,
+				31B8945123CDEE8200E22B30 /* SceneDelegate.swift */,
 				31B893FF23CCB33D00E22B30 /* Main.storyboard */,
 				31B8940223CCB33E00E22B30 /* Assets.xcassets */,
 				31B8940423CCB33E00E22B30 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B893FE23CCB33D00E22B30 /* ViewController.swift in Sources */,
 				31B893FA23CCB33D00E22B30 /* AppDelegate.swift in Sources */,
-				31B893FC23CCB33D00E22B30 /* SceneDelegate.swift in Sources */,
+				31B8940E23CCC00600E22B30 /* MainViewController.swift in Sources */,
+				31B8945223CDEE8200E22B30 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pandp.MyPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pandp.MyPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

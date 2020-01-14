@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MyPlaces.xcodeproj">
+      location = "group:/Users/pavelgrigorev/Documents/iOS Development/MyPlaces/MyPlaces/SceneDelegate.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
